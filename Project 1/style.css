@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_box{
+    background: url("photo.jpg")
+    no-repeat center center/cover;
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn_one{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    left: 20px;
+    line-height: 60px;
+}
+
+.sidebar_menu{
+    position: fixed;
+    /* left: -300px; */
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar_menu .logo a{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    left: 80px;
+    top: 20px;
+}
+
+.sidebar_menu .btn_two{
+    color: gray;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    position: absolute;
+    left: 275px;
+    opacity: 0;
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color: white;
+    line-height: 30px;
+}
+
+.sidebar_menu .menu li{
+    margin: 6px;
+    padding: 20px 10px;
+}
+    
+
+.sidebar_menu .menu i,a{
+    font-size: 20px;
+    font-weight: 450;
+    color: white;
+    line-height: 20px;
+    text-decoration: none;
+
+}
+
+.sidebar_menu .menu i{
+    padding-right: 10px;
+}
+
+.sidebar_menu .social_media{
+    color: white;
+    position: absolute;
+    left: 25%;
+    opacity: 0.5;
+    bottom: 35px;
+}
+
+.sidebar_menu .social_media i{
+    font-size: 20px;
+    padding: 0 4px;
+
+}
+
+#check{
+    display: none;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
